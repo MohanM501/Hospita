@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/Home.css"/>
+</head>
+<body>
+    <h2>Home</h2>
+    <div>
+        <div id="heading">
+            <div onclick="handleLogin()">
+                Login
+            </div>
+            <div onclick="handleRegister()">
+                Register
+            </div>
+        </div>
+        <div id="login-inputs">
+            <input type="string" placeholder="username"/>
+            <br/>
+            <input type="password" placeholder="password"/>
+        </div>
+        <div id="register-inputs">
+            <input type="string" placeholder="username"/>
+
+            <input type="email" placeholder="email"/>
+            
+            <input type="password" placeholder="password"/>
+            
+            <input type="password" placeholder="Repeat Password"/>
+        </div>
+        <button>Login</button>
+
+    </div>
+    
+</body>
+<script src="./Scripts/Home.js"></script>
+</html>
